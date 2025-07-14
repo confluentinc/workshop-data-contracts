@@ -35,24 +35,25 @@ This lab represents River Hotels' current state: infrastructure exists but lacks
 Get started by cloning the workshop repository and navigating to the Terraform configuration directory.
 
 1. Open your preferred command-line interface, like *zsh* or *Powershell*
-2. Clone this repository with git:
+2. Navigate to your preferred location for creating projects
+3. Clone this repository with git:
 
    **HTTP:**
 
    ```sh
-   git clone https://github.com/confluentinc/data-contracts-shift-left.git
+   git clone https://github.com/confluentinc/workshop-data-contracts.git
    ```
 
    **SSH:**
 
    ```sh
-   git clone git@github.com:confluentinc/data-contracts-shift-left.git
+   git clone git@github.com:confluentinc/workshop-data-contracts.git
    ```
 
-3. Navigate to the Terraform directory:
+4. Navigate to the Terraform directory:
 
    ```sh
-   cd data-contracts-shift-left/terraform
+   cd workshop-data-contracts/terraform
    ```
 
 ### Step 2: Configure Cloud API Keys and Accounts
