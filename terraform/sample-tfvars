@@ -1,0 +1,22 @@
+# ===============================
+# General Overrides
+# ===============================
+email        = ""
+cloud_region = ""
+call_sign    = ""
+
+# ===============================
+# Confluent Cloud Overrides
+# ===============================
+confluent_cloud_api_key    = ""
+confluent_cloud_api_secret = ""
+
+
+# ===============================
+# Databricks Overrides
+# ===============================
+databricks_account_id                      = ""
+databricks_service_principal_client_id     = ""
+databricks_service_principal_client_secret = ""
+databricks_host                            = ""
+databricks_user_email                      = ""
