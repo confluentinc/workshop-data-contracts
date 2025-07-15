@@ -25,8 +25,7 @@ This lab represents River Hotels' current state: infrastructure exists but lacks
 
 ### Prerequisites
 
-- Reviewed the [README](../../README.md)
-- Completed [preqrequisites](../../README.md#-prerequisites)
+Review the [README](../../README.md) and complete its [prerequisites](../../README.md#-prerequisites)
 
 ## 👣 Steps
 
@@ -35,24 +34,25 @@ This lab represents River Hotels' current state: infrastructure exists but lacks
 Get started by cloning the workshop repository and navigating to the Terraform configuration directory.
 
 1. Open your preferred command-line interface, like *zsh* or *Powershell*
-2. Clone this repository with git:
+2. Navigate to your preferred location for creating projects
+3. Clone this repository with git:
 
    **HTTP:**
 
    ```sh
-   git clone https://github.com/confluentinc/data-contracts-shift-left.git
+   git clone https://github.com/confluentinc/workshop-data-contracts.git
    ```
 
    **SSH:**
 
    ```sh
-   git clone git@github.com:confluentinc/data-contracts-shift-left.git
+   git clone git@github.com:confluentinc/workshop-data-contracts.git
    ```
 
-3. Navigate to the Terraform directory:
+4. Navigate to the Terraform directory:
 
    ```sh
-   cd data-contracts-shift-left/terraform
+   cd workshop-data-contracts/terraform
    ```
 
 ### Step 2: Configure Cloud API Keys and Accounts
@@ -188,9 +188,6 @@ In this step you will create a [Service Principal](https://docs.databricks.com/a
 
 5. Click the *Generate* button
 6. Copy and paste the `Secret` and `Client ID` into the corresponding databricks Terraform variables in your `terraform.tfvars` file
-
-   ![Terraform databricks oauth](../images/databricks_terraform_oauth_tfvar.png)
-
 7. Click on the *Done* button
 
 ##### Add Service Principal to Admin Group
@@ -210,7 +207,9 @@ In this step you will create a [Service Principal](https://docs.databricks.com/a
 
 ##### Databricks Setup Complete
 
-You have completed the Databricks set up and now are ready to configure your Confluent Cloud account.
+You have completed the Databricks set up and each of the Databricks entries in your `terraform.tfvars` file should be populated with values.
+
+You are now ready to configure your Confluent Cloud account.
 
 #### Configure Confluent Cloud
 
@@ -254,7 +253,9 @@ With the AWS CLI already installed, follow [these instructions](https://docs.aws
 > [!IMPORTANT]
 > **AWS Workshop Studio Accounts**
 >
-> If you are using an AWS Workshop Studio account, click on the **Get AWS CLI credentials** link on your event home screen and follow the instructions.
+> If you are using an AWS Workshop Studio account, click on the **Get AWS CLI credentials** link on your event home screen and follow the instructions for your OS.
+>
+> Ensure that you set/export the variables in the same shell window that you will be running your terraform commands in.
 >
 > ![Menu for AWS CLI](../images/aws_cli_credentials.png)
 
@@ -281,7 +282,9 @@ Now you'll deploy the infrastructure that demonstrates the "before" state - a wo
 
 #### Initialize and Validate Terraform
 
-First, initialize your Terraform workspace:
+First, switch to your shell window and navigate to the terraform directory.
+
+Next, initialize your Terraform workspace:
 
 ```sh
 terraform init

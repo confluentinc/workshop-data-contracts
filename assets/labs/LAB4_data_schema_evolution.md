@@ -203,12 +203,6 @@ In this step you will add this new optional field to the clickstream schema to t
                   "flink.version": 1,
                   "logicalType": "local-timestamp-millis"
             }
-         },
-         {
-            "name": "DEVICE_TYPE",
-            "type": ["null", "string"],
-            "default": null,
-            "doc": "Device type used for this interaction (mobile, desktop, tablet)"
          }
       ]
 }

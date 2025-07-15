@@ -44,6 +44,11 @@ You must complete each of these to successfully go through this workshop:
 - [Docker Desktop](https://docs.docker.com/get-started/get-docker/) installed
 - [Git](https://git-scm.com/downloads) installed
 
+> [!WARNING]
+> **Payment Method or Promo Code Required for Confluent Cloud**
+>
+> You must either add a [payment method](https://docs.confluent.io/cloud/current/billing/overview.html#manage-your-payment-method) or [redeem a coupon code](https://docs.confluent.io/cloud/current/billing/overview.html#redeem-a-promo-code-or-view-balance) to be able to run this workshop.
+
 ## 🏨 Use Case
 
 *River Hotels* is facing a critical data reliability crisis. Despite having a modern data infrastructure, they're experiencing frequent pipeline failures, inconsistent analytics, and eroded trust in their data products. The root cause? No formal data contracts or governance practices to prevent bad data from propagating through their systems.
@@ -120,7 +125,7 @@ By the end of this workshop, you will have **prototyped a data contracts framewo
 
 The following diagrams represent the **proof-of-concept data contracts architecture** you will implement and the governance framework that demonstrates data quality principles.
 
-![Workshop architecture](./assets/images/data_contract_architecture_diagram.jpg)
+![Workshop architecture](./assets/images/data_contracts_architecture_diagram.jpg)
 
 ### 🔗 Entity Relationship Diagram
 
