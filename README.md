@@ -120,7 +120,7 @@ By the end of this workshop, you will have **prototyped a data contracts framewo
 
 The following diagrams represent the **proof-of-concept data contracts architecture** you will implement and the governance framework that demonstrates data quality principles.
 
-![Workshop architecture](./assets/images/data_contract_architecture_diagram.jpg)
+![Workshop architecture](./assets/images/data_contracts_architecture_diagram.jpg)
 
 ### 🔗 Entity Relationship Diagram
 
