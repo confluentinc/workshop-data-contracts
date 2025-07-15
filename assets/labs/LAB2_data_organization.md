@@ -256,6 +256,8 @@ Now you'll create the Kafka topic that will use your data contract for governanc
 
 Based on the DLQ topic `invalid-messages` you specified in the Data quality rule you created earlier, go ahead and create a topic titled `invalid-messages`.
 
+You want this to be a schema-less topic so it can ingest different message structures, so do not create a data contract for it.
+
 ## 🏁 Conclusion
 
 **Outstanding work!** You've transformed River Hotels from an ungoverned data environment into a governed ecosystem.
