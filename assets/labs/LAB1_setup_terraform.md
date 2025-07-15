@@ -25,7 +25,7 @@ This lab represents River Hotels' current state: infrastructure exists but lacks
 
 ### Prerequisites
 
-Review the [README](../../README.md) and complete its [preqrequisites](../../README.md#-prerequisites)
+Review the [README](../../README.md) and complete its [prerequisites](../../README.md#-prerequisites)
 
 ## 👣 Steps
 

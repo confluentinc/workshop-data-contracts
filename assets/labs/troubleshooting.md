@@ -6,7 +6,7 @@ Review the resources below if you run into issues while going through instructio
 
 ### Handling Provider Integration Deletion Conflicts
 
-If you encounter a `409 Conflict` error when running `terraform destroy -auto-update` to destroy the workshop cloud resources then follow these additional steps:
+If you encounter a `409 Conflict` error when running `terraform destroy -auto-approve` to destroy the workshop cloud resources then follow these additional steps:
 
 1. Remove the problematic resource from Terraform state:
 
@@ -22,7 +22,7 @@ If you encounter a `409 Conflict` error when running `terraform destroy -auto-up
 2. Rerun the terraform destroy command
 
    ```sh
-   terraform destroy -auto-update
+   terraform destroy -auto-approve
    ```
 
 ## 🗄️ Oracle Database

@@ -1,12 +1,11 @@
 # Change Log
 
-## v0.1.1 - 2025-07-14
+## v0.1.1 - 2025-07-15
 
 ### Features and Fixes
 
-- Fix git clone repo url
-- Replace architecture diagram
-- Change wording in a few places
+- Minor wording changes and fixes
+- New architecture diagram
 
 ## v0.1.0 - 2025-07-14
 
